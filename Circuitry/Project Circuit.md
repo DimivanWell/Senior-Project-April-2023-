@@ -12,7 +12,7 @@ The aux input was divided into two paths, Low Pass and High Pass. Utilizing an a
 Given the general properties of transistors (essentially switches) we create a very low range volume knob. This controlled the amount of signal sent through to the amps. 
 ![transitors](https://github.com/DimivanWell/Senior-Project-April-2023-/assets/105472781/661b4667-f9a1-4ce9-b8d8-db094a3ab692)
 
-    ### An Issue:
+    ## An Issue:
     The analog level from the arduino was being supplied rather high through these transistors. These were feeding the system when the NPN were closed. A high pass filter was then added to diminish this. This was a success, HOWEVER, when the current passed through them it effected the fine tuned self contained aux circuit. The solution... 
     
 ## Diode Bridge
