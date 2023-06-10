@@ -9,4 +9,4 @@ In this repository I the circuitry break down, code for the touch screen control
 ## Credit
 Huge shout out to [Rinky-Dink Electronics](http://www.rinkydinkelectronics.com/library.php?id=92) for their screen driver packages.
 
-A seven segment lettering package was used to make the screen feel more 'radio-ie'. This can be found in the Rinky-Dink Files named [SevenSegmentFull.c](Rinky-Dink Files/SevenSegmentFull.c) **Note: make sure this file inside the same directory as your .ino file inorder to properlly call the package within the code
+A seven segment lettering package was used to make the screen feel more 'radio-ie'. This can be found in the Rinky-Dink Files named SevenSegmentFull.c **Note: make sure this file inside the same directory as your .ino file inorder to properlly call the package within the code
