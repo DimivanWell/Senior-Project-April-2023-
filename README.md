@@ -1,2 +1,10 @@
-# ECE-4700---Capstone-G5
-This repository will serve as the home base for the code needed. It will for the most part be Arduino code. 
+# Senior Project April 2023
+This project was completed for my Senior Capstone project. It is a touchscreen/Arduino controlled touchscreen radio. It Further has the ability to control volume from the screen, channel, and swith the radio into aux mode. 
+
+The circuitry was designed and made by me; the arduino, radio module, amplifiers, and part of the AC to DC step down were the only portions not made physically made.
+
+I worked closely with Jasraj Singh (software support), Harneha Kaur(hardware support), and Sandro Zro (3D Housing and software support).  
+## Content
+In this repository I the circuitry break down, code for the touch screen controller, and overview can be found.
+## Credit
+Huge shout out to [Rinky-Dink Electronics](http://www.rinkydinkelectronics.com/library.php?id=92) for their screen driver packages.
