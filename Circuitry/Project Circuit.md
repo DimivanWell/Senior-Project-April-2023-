@@ -12,8 +12,8 @@ The aux input was divided into two paths, Low Pass and High Pass. Utilizing an a
 Given the general properties of transistors (essentially switches) we create a very low range volume knob. This controlled the amount of signal sent through to the amps. 
 ![transitors](https://github.com/DimivanWell/Senior-Project-April-2023-/assets/105472781/661b4667-f9a1-4ce9-b8d8-db094a3ab692)
 
-    ## An Issue:
-    The analog level from the arduino was being supplied rather high through these transistors. These were feeding the system when the NPN were closed. A high pass filter was then added to diminish this. This was a success, HOWEVER, when the current passed through them it effected the fine tuned self contained aux circuit. The solution... 
+## An Issue:
+The analog level from the Arduino was being supplied rather high through these transistors. These were feeding the system when the NPN was closed. A high pass filter was then added to diminish this. This was a success, HOWEVER, when the current passed through them it affected the fine-tuned self-contained aux circuit. The solution... 
     
 ## Diode Bridge
 
@@ -23,4 +23,18 @@ Given the general concept of signal through Diodes, I needed the voltage/current
 
 ## Radio Module
 
-The diode bridge was needed for the 
+The diode bridge was needed for the aux's circuit but since the high pass was present for the radio all it needed was a low pass for its output into the system and it sounded clear as day.
+
+![radio](https://github.com/DimivanWell/Senior-Project-April-2023-/assets/105472781/bf99c707-363c-41c6-8cbb-a3188278eb08)
+
+## Relay
+
+The display had presets for the radio stations and then a button to switch to aux. When this was clicked a signal was sent to flip the relay to give power to whichever amp was sending a signal to the speakers.
+
+![relay](https://github.com/DimivanWell/Senior-Project-April-2023-/assets/105472781/8e5cc1bb-0850-4928-8876-3b2d662a4fe9)
+
+## The amps and speaker
+
+The amps being triggered gave way to defining clean uninterrupted audio. Given that the feeds weren't needed the amps could be wired in parallel so even if one was off its output would still play to the same speaker or to an additional speaker that was wired through the speaker.
+
+![amps](https://github.com/DimivanWell/Senior-Project-April-2023-/assets/105472781/2ba7289a-58d2-4bba-9302-a2e1aa2260a0)
